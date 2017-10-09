@@ -1,0 +1,794 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .main-mnu li a {
+        padding: 0 7px;
+    }
+
+    .main-mnu a {
+        font-size: 15px;
+    }
+
+    .header-content-text {
+        font-size: 21px;
+    }
+
+    .button-more {
+        left: 72px;
+    }
+
+    .iconset img {
+        margin-top: 18px; 
+    }
+
+    .left_sider {
+        font-size: 23px;
+    }
+
+    .qr {
+        text-align: center;
+    }
+
+    .bottom-mnu a {
+        padding: 0px 3px;  
+    }
+
+    .bottom-mnu li {
+        font-size: 14px;
+    }
+
+    .iconset {
+        margin-bottom: 28px;
+    }
+
+    .button-detali {
+        top: 270px;
+        left: 280px;
+    }
+
+    .zakaz button {
+        padding: 10px 2px;
+        left: 95px;
+    }
+
+    .button-detali-eat {
+        padding: 8px 39px;
+    }
+
+    .left_rhombus:after {
+        left: 5px;
+    }
+
+    .right_rhombus:before {
+        right: 5px;
+    }
+
+    input[type="text"] {
+        width: 180px;
+    }
+
+    textarea {
+        width: 180px;
+    }
+
+    .button_call {
+        font-size: 16px;
+        padding: 10px 5px;
+    }
+
+    .zakaz h1 {
+        font-size: 20px;
+        right: 15px;
+        bottom: 185px;
+    }
+
+    .button-detali-wedding {
+        left: 280px;
+    }
+
+    .next_button_big {
+        right: 15px;
+    }
+
+    .block-text {
+        font-size: 13px;   
+    }
+
+    .button-read {
+        margin-top: 0px;
+    }
+
+    .box4 h1 {
+        font-size: 28px;
+        padding-left: 25px;
+    }
+
+    .third-section {
+        min-height: 1090px;
+    }
+
+    .fourth-section {
+        min-height: 400px;  
+    }
+
+    .box-map-restourant h1 {
+        font-size: 33px;  
+    }
+
+    .box3 h1 {
+        font-size: 32px;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+    .sled img {
+        position: relative;
+        top: 23px;
+        left: 130px;
+        max-width: 80%;
+    }
+
+    .footer-menu {
+        margin-top: 45px;
+    }
+
+    .main-mnu {
+       clear: both;
+       position: static;
+       width: 100%;
+       border: 0px solid #333;
+       margin: 0 auto;
+   }
+
+   .main-mnu_button {
+    color: #c9b56e;
+    float: right;
+    position: relative;
+    margin-top: -44px;
+}
+
+.main-mnu ul {
+  display: none;
+  padding: 0;
+  margin:0;
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #372113;	
+}
+
+.main-mnu ul li {
+  display: inline;
+  width: 100%;
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+  border: 0px solid #333;
+  float: left;
+  border-bottom: 1px solid #372113;
+}
+
+.main-mnu ul li + li:before {
+	display: none;
+}
+
+.header-content-text {
+    font-size: 24px;
+}
+
+.button-more {
+    left: 95px;
+}
+
+.right-asside {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.left_side {
+    text-align: center;
+    font-size: 18px;
+    font-family: "notoserif";
+}
+
+.left_sider {
+    font-size: 24px;
+    font-family: "notoserifbold";
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.bottom_line {
+	margin-top: -28px;
+}
+
+.bottom-mnu a {
+    padding: 0 15px;
+}
+
+.bottom-mnu ul li + li:before {
+    content: url("../img/razdelitel.png");
+    display:none;
+}
+
+.block-text {
+    padding-left: 15px;
+}
+
+.action-text {
+    font-size: 4vw;
+}
+
+.action-text span {
+    font-size: 7vw;
+}
+
+.callback-info {
+    max-height: 415px;
+    max-width: 270px;
+    background-color: #faf8e3;
+    text-align: center;
+    border: 1px solid #c4b7ae; 
+}
+
+.restoran-menu {
+    background-image: url(../img/eat-2.png);
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    position: relative;
+    right: 75px;
+}
+
+.zakaz {
+    background-image: url(../img/chepiga-pr.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 75px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.zakaz h1 {
+    font-size: 20px;
+    right: 100px;
+    bottom: 0px;
+}
+
+.z {
+    margin-top: 25px;
+}
+
+.button-detali-zakaz {
+    position: relative;
+    top: -112px;
+    left: 101px;
+    
+}
+
+.button-detali-eat {
+    padding: 8px 67px;
+}
+
+.fourth-section {
+    min-height: 340px;
+}
+
+.box-map-restourant h1 {
+    font-size: 28px;
+}
+
+.fifth-section {
+    min-height: 1000px;
+}
+
+.box4 h1 {
+    font-size: 20px;
+    padding-left: 13px;
+}
+
+.button-detali {
+    top: 340px;
+    left: 385px;
+}
+
+.zakaz-text p {
+    right: 95px; 
+}
+
+.zakaz button {
+    padding: 10px 10px;
+    left: 95px;
+}
+
+.zakaz img {
+    position: relative;
+    top: -29px;
+    right: 27px;
+}
+
+.button-detali-wedding {
+    left: 310px;  
+}
+
+.next_button_big {
+    right: 15px;
+}
+
+.prev_button_big {
+    left: 15px;
+}
+
+.callback-info-wedding {
+    max-height: 415px;
+    max-width: 270px;
+    background-color: #faf8e3;
+    text-align: center;
+    border: 1px solid #c4b7ae; 
+}
+
+.action-proposition {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.left_rhombus {
+    display: none;
+}
+
+.right_rhombus {
+    display: none;
+}
+
+.deti {
+    display: none;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .footer-bottom {
+        margin-bottom: 0px;
+    }
+
+    .footer-iconset {
+        margin-top: 0px;
+        text-align: left; 
+    }
+
+    .chef {
+        display: none;
+    }
+
+    .bottom-mnu {
+        display: none;
+    }
+
+    .restoran-menu {
+        background-image: url(../img/eat-2.png);
+        background-repeat: no-repeat;
+        margin-top: 25px;
+        position: relative;
+        right: 0px;
+    }
+
+    .button-detali-eat {
+        padding: 8px 67px;
+        left: -165px;
+    }
+
+    .zakaz {
+        background-image: url(../img/chepiga-pr.png);
+        background-repeat: no-repeat;
+        position: relative;
+        right: 0px;
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    .restoran-menu span {
+        display: none;
+    }
+
+    .wedding img {
+        max-width: 100%;
+        min-height: 0px;
+    }
+
+    .button-detali-wedding {
+        left: 270px;
+    }
+    .second-section { 
+        min-height: 520px;
+    }
+
+    .action-text span {
+        display: none;
+    }
+
+    .author {
+        display: none;
+    }
+
+    .action-text {
+        font-size: 6.5vw;
+    }
+
+    .author-yadro {
+        display: none;
+    }
+
+    .callback-info {
+        margin-top: 25px;
+    }
+
+    .footer-iconset {
+        margin-top:10px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+    }
+
+    .footer-bottom {
+        margin-top:10px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+    }
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+    .toogle_accordion4 button,
+    .toogle_accordion5 button { 
+        margin-top: 25px;
+        padding: 10px 10px 10px 20px;
+        width: 100%;
+    }
+
+    .action-text span {
+        display: block;
+    }
+
+    .toogle_accordion4 button i,
+    .toogle_accordion5 button i {
+     padding-left: 60px;
+ }
+
+ .author-yadro {
+    display: none;
+}
+
+.author {
+    display: none;
+}
+
+.action-text {
+    font-size: 8vw;
+}
+
+.action-text span {
+    font-size: 13vw;
+}
+
+.button-more {
+    left: 109px;
+}
+
+.button-read {
+    display: none;
+}
+
+.bottom-mnu {
+    display: none;
+}
+
+.chef {
+    display: none;
+}
+
+.callback-info {
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+.restoran-menu {
+    right:0px;
+    margin-left: 25px;
+}
+
+.zakaz {
+    right:0px;
+
+}
+
+.zakaz-text p{
+    right: 35px;
+}
+
+.wedding img {
+
+    min-height: 0px;
+}
+
+.button-detali-wedding {
+    left: 100px;
+    top: 60px;
+}
+
+.accordion-container {
+    display: block !important;
+}
+
+.fifth-section {
+    display: none;
+}
+
+.author {
+    display: none;
+}
+
+.footer-bottom {
+    margin-bottom: 0px;
+}
+
+.footer-iconset {
+    margin-top: 10px;
+    text-align: left; 
+    margin-left: 20px;
+}
+
+#top button {
+    float: right;
+    position: relative;
+    bottom: 56px;
+    right: 15px;
+}
+
+.footer-menu ul {
+    display: none;
+}
+
+.authore {
+    margin-top: 30px;
+}
+
+.box4 ul li + li:before {
+    display: none;
+}
+
+.second-section {
+    min-height: 480px;
+}
+
+.button-detali-eat {
+    padding: 8px 67px;
+    left: 8px;
+}
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .callback-info {
+        margin-top: 0px;
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .footer-menu > img {
+        display: none;
+    }
+
+    .toog button {
+        display: block !important;
+    }
+
+    .second-section {
+        min-height: 415px;
+    }
+
+    .action-text {
+        font-size: 9vw;
+    }
+
+    .action-text span {
+        font-size: 20vw;
+    }
+
+    .button-more {
+        left: 65px;
+    }
+
+    .button-news {
+        position: relative;
+        left: 55px;
+    }
+
+    .qr {
+        display: none;
+    }
+
+    .bottom_line, .bottom-mnu {
+        display: none;
+    }
+
+    .button-read {
+        display: none;
+    }
+
+    .chef {
+        display: none;
+    }
+
+    .callback-info {
+        margin-top:0px;
+    }
+
+    .restoran-menu {
+        right: 0px;
+    }
+
+    .button-detali-eat {
+        padding: 8px 50px;
+    }
+
+    .zakaz {
+        right: 0px;
+    }
+
+    .button-detali-zakaz {
+        position: relative;
+        top: -218px;
+        left: 97px;
+    }
+
+    .button-detali-zakaz {
+        padding: 10px 15px;
+    }
+    .zakaz-text p {
+        right: 10px;
+    }
+
+    .wedding img {
+        max-width: 100%;
+        min-height: 0px;
+    }
+    .button-detali-wedding {
+        left: 80px;
+        top: 45px;
+    }
+    .callback-wedding {
+        display: block;
+    }
+
+    .w {
+        display: none;
+    }
+    .box3 h1 {
+        font-size: 27px;
+    }
+
+    .box3 h1,
+    .box4 h1, {
+        font-size: 30px;
+    }
+
+    .box-map-restourant h1 {
+        font-size: 20px;
+    }
+
+    .fifth-section {
+        display: none;
+    }
+
+    .author {
+        display: none;
+    }
+
+    .footer-bottom {
+        margin-bottom: 0px;
+    }
+    .footer-iconset {
+        margin-top: 0px;
+        text-align: left; 
+    }
+
+    .aaa {
+        padding:0;
+    }
+}
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+    .button-300 {
+        display: none;
+    }
+
+    #top button {
+        display: none;
+    }
+
+    .toogle_accordion1 button,
+    .toogle_accordion2 button,
+    .toogle_accordion3 button,
+    .toogle_accordion4 button,
+    .toogle_accordion5 button {
+        display: none;
+    }
+
+    .footer-menu ul {
+        display: block !important;
+    }
+
+    .callback-info {
+        display: block !important;
+    }
+
+    .separat {
+        display: none;
+    }
+    .authore {
+        display: none;
+    }
+    .author-yadros {
+        display: none;
+    }
+
+    .romb-second {
+        top: 25px; 
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .button-300 {
+        display: none;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .button-300 {
+        display: none;
+    }
+
+    .main-mnu ul {
+      display: block !important;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .button-300 {
+        display: none;
+    }
+    .toog button {
+        display: none;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:992px) {
+    .callback-wedding {
+        display: none;
+    }
+}

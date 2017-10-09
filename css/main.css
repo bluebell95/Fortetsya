@@ -1,0 +1,1460 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	
+}
+
+/*Начало Хедера*/
+
+header {
+	background-image: url(../img/background.jpg);
+	background-position: top center;
+	position: relative;
+	border-bottom: 1px solid #372113;	
+}
+
+.top-line {
+	background-image: url(../img/top_line.jpg);
+	width: 100%;
+	padding: 18px 0;
+}
+
+.main-mnu {
+	display: block;
+	float: right;
+}
+
+
+.main-mnu ul {
+	list-style-type: none;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.main-mnu a {
+	color: #e7d6a7;
+	padding: 0 20px;
+	font-family: "notoserif";
+	font-size: 16px;
+}
+
+.main-mnu li {
+	display: inline-block;
+}
+
+.main-mnu ul li + li:before {
+	content: url("../img/razdel.png")
+}
+
+.main-mnu li:hover {
+	text-decoration: underline;
+	color: #e7d6a7;
+}
+
+.header-content-text {
+	font-family: "notoserif";
+	font-size: 26px;
+	margin-top: 25px;
+}
+
+.action {
+	max-width: 100%;
+	min-height: 440px;
+	background-color: #fff;
+	background-size: cover;
+	background-position: bottom;
+	position: relative;
+	margin-top: 20px;
+	cursor:pointer;
+	background-image: url(../img/eat.png);
+
+}
+
+.action-text {
+	padding: 10px 25px;
+	font-family: "notoserif";
+	font-size: 3vw;
+	color: #372113;
+	line-height: 50px;
+	min-width: 44%;
+	position: absolute;
+}
+
+.action-text span {
+	font-family: "notoserif";
+	font-size: 6vw;
+	line-height: 85px;
+}
+
+
+.spain-zal {
+	min-width: 44%;
+	min-height: 260px;
+	background-color: #fff;
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	margin-top: 20px;
+	background-image: url(../img/esp_zal.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+
+}
+
+.information {
+	margin-top: 30px;
+}
+
+.second-information {
+	margin-top: 10px;
+} 
+
+
+.button-top {
+	display: inline-block;
+	background-color: #372113;
+	vertical-align: middle;
+	height: 60px;
+	padding: 10px 17px;
+	font-size: 14px;
+	text-align: center;
+	color:#fff;
+	font-family: "notoserif";
+	cursor:pointer;
+}
+
+.button-top:hover {
+	background-color: #e64437;
+}
+
+.button-top:active {
+	background-color: #b81609;
+}
+
+
+.button-more {
+	position: absolute;
+	top: 275px;
+	left: 103px;
+	display: inline-block;
+	background-color: #fff;
+	border: 3px solid #e7e6d2;
+	vertical-align: middle;
+	height: 45px;
+	padding: 8px 38px;
+	font-size: 14px;
+	text-align: center;
+	color: #372113;
+	font-family: "notoserifbold";
+	text-transform: uppercase;
+	font-size: 16px;
+	cursor:pointer;
+}
+
+.button-more:hover {
+	background-color: #dbd3bb;
+}
+
+.button-more:active {
+	background-color: #c7c0ae;
+}
+
+.bottom_line {
+	min-height: 85px;
+	width: 100%;
+	background-color: #e7e6d2;
+	padding: 15px 0;
+	border-top: 1px solid #fff;
+	margin-top: 25px;
+}
+
+.bottom-mnu {
+	display: block;
+}
+
+.bottom-mnu ul {
+	list-style-type: none;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+.bottom-mnu a {
+	color: #050517;
+	padding: 0 9px;
+	font-family: "notoserif";	
+}
+.bottom-mnu li:hover{
+	color: #050517;
+	text-decoration: underline;
+}
+
+.bottom-mnu li {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.bottom-mnu ul li + li:before {
+	content: url("../img/razdelitel.png")
+}
+.pad_left a {
+	padding-left: 0;
+}
+.button-bottom {
+	display: inline-block;
+	background-color: #372113;
+	vertical-align: middle;
+	height: 40px;
+	padding: 3px 10px;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	font-family: "notoserif";
+	float: left;
+	cursor:pointer;
+}
+
+.button-bottom:hover {
+	background-color: #e64437;
+}
+
+.button-bottom:active {
+	background-color: #b81609;
+}
+
+.button-read {
+	display: inline-block;
+	background-color: #fff;
+	vertical-align: middle;
+	padding: 2px 8px;
+	font-size: 14px;
+	text-align: center;
+	color: #372113;
+	font-family: "notoserifbold";
+	text-transform: uppercase;
+	float: right;
+	border: 2px solid #372113;
+	margin-top: 5px;
+	cursor:pointer;
+}
+
+.button-read:hover,
+.button-news:hover {
+	background-color: #d5d3d0;
+}
+.button-300 {
+	display: inline-block;
+	background-color: #fff;
+	vertical-align: middle;
+	text-align: center;
+	color: #372113;
+	float: right;
+	border: 1px solid #372113;
+	margin-top: -4px;
+	padding: 10px 20px;
+	cursor:pointer;
+}
+
+.button-300:hover,
+.button-300:hover {
+	background-color: #d5d3d0;
+}
+
+.button-read:active,
+.button-news:hover {
+	background-color: #d7d0c1;
+}
+
+
+.inform {
+	padding:0;
+	margin:0;
+	margin-top: 10px;
+}
+
+.block-text {
+	font-size: 14px;
+	float:left;
+	font-family: "notoserif";
+}
+
+.button-news {
+	display: inline-block;
+	background-color: #deddc7;
+	vertical-align: middle;
+	padding: 4px 18px;
+	font-size: 14px;
+	text-align: center;
+	color:#372113;
+	font-family: "notoserifbold";
+	margin-top: 10px;
+	text-transform: uppercase;
+	cursor:pointer;
+}
+
+.content-right {
+	position: relative;
+}
+
+.content-right:before {
+	z-index: 9999;
+}
+
+.ico img {
+	position: absolute;
+	top: 20px;
+}
+
+.right-asside ul {
+	list-style-type: none;
+	padding: 0px 35px;
+	
+}
+
+.right-asside {
+	text-align: center;
+	position: absolute;
+	background-image: url(../img/fon-section.png);
+	width: 100%;
+}
+
+.iconset {
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+.iconset a {
+	padding: 0 5px;
+}
+.iconset li {
+	display: inline;
+}
+
+.left_side {
+	text-align: left;
+	font-size: 18px;
+	font-family: "notoserif";
+}
+
+.separ {
+	margin-top: 5px;
+	margin-bottom: -5px;
+}
+
+.right_asside ul li span {
+	font-weight: bold;
+}
+.phone_ {
+	margin-bottom: 10px;
+}
+.left_sider {
+	font-size: 24px;
+	font-family: "notoserifbold";
+	text-align: left;
+	word-spacing: 5px;
+}
+
+.map_ico {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.separator_horizontal {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.right-asside-first {
+	margin-top: 30px;
+}
+/*Начало первой секции (РЕСТОРАН)*/
+
+.restourant-section {
+	background-image: url(../img/first-section.jpg);
+	min-height: 630px;
+	background-position: top center;
+	position: relative;
+}
+.restourant-section-marg {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.left-romb {
+	float: left;
+	background-image: url(../img/left_romb.png);
+	background-position: top center;
+	position: absolute;
+}
+
+.box-first {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.box-first h1 {
+	color: #372113;
+	font-size: 36px;
+	font-family: "notoserif";
+	display: inline-block;
+	background-image: url(../img/first-section.jpg);
+	text-transform: uppercase;
+}
+
+.box-first:after {
+	content:"";
+	display: block;
+	height: 1px;
+	background-color: #372113;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+h1 {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.left_rhombus:after {
+	content: url("../img/left_romb.png");
+	display: block;
+	position: absolute;
+	top: 39px;
+}
+
+.right_rhombus:before {
+	content: url("../img/right_romb.png");
+	display: block;
+	position: absolute;
+	top: 39px;
+}
+
+.chef img {
+	max-width: 100%;
+}
+
+
+
+.button-detali {
+	position: absolute;
+	top: 330px;
+	left: 370px;
+	display: inline-block;
+	background-color: #fff;
+	border: 3px solid #e7e6d2;
+	vertical-align: middle;
+	height: 47px;
+	padding: 8px 25px;
+	text-align: center;
+	color: #372113;
+	font-family: "notoserifbold";
+	text-transform: uppercase;
+	font-size: 18px;
+	cursor:pointer;
+}
+
+.button-detali:hover {
+	background-color: #dbd3bb;
+}
+
+.button-detali:active {
+	background-color: #c7c0ae;
+}
+.qr img {
+	text-align: center;
+}
+.chef_button {
+	position: absolute;
+	top: 25px;
+	left: 374px;
+	display: inline-block;
+	background-color: #fff;
+	vertical-align: middle;
+	height: 50px;
+	padding: 12px 25px;
+	text-align: center;
+	color: #372113;
+	font-family: "notoserifbold";
+	text-transform: uppercase;
+	font-size: 18px;
+	cursor:pointer;
+}
+
+.chef_button:hover {
+	background-color: #dbd3bb;
+}
+
+.chef_button:active {
+	background-color: #c7c0ae;
+}
+
+.callback-info {
+	
+	background-color: #faf8e3;
+	text-align: center;
+	border: 1px solid #c4b7ae;
+	overflow: hidden;
+}
+
+.callback-info p {
+	font-family: "notoserif";
+	font-size: 16px;
+}
+
+input[type="text"] {
+	font-size: 100%;
+	padding: 0;
+	font-family: "notoserif";
+	height: 50px; /* высота с учетом бордюр, внутренних отступов */
+	width: 200px; /* ширина с учетом бордюр, внутренних отступов */
+
+
+	padding: 3px 0 3px 5px; /* обязательно наличие как верхнего так и нижнего отступа */
+
+}
+
+textarea {
+	margin-top: 20px;
+	font-size: 100%;
+	padding: 0;
+	font-family: "notoserif";
+	height: 95px; /* высота с учетом бордюр, внутренних отступов */
+	width: 200px; /* ширина с учетом бордюр, внутренних отступов */
+	padding: 10px 0 3px 5px; /* обязательно наличие как верхнего так и нижнего отступа */
+
+}
+
+
+
+
+
+
+
+.button_call {
+	position: relative;
+	margin-top: 34px;
+	display: inline-block;
+	background-color: #fff;
+	border: 2px solid #e7e6d2;
+	vertical-align: middle;
+	height: 46px;
+	padding: 7px 5px;
+	text-align: center;
+	color: #372113;
+	font-family: "notoserifbold";
+	text-transform: uppercase;
+	font-size: 18px;
+	cursor:pointer;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+.button_call:hover {
+	background-color: #dbd3bb;
+}
+
+.button_call:active {
+	background-color: #c7c0ae;
+}
+
+
+
+
+
+.second_p p {
+	font-size: 14px;
+	font-family: "notoserif";
+	color: #5e4c3d;
+}
+
+.restoran-menu {
+	background-image: url(../img/eat-2.png);
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+.restoran-menu h1 {
+	font-size: 22px;
+	font-family: "notoserifbold";
+	text-transform: uppercase;
+}
+
+.restoran-menu span {
+	font-family: "notoserif";
+}
+
+.button-detali-eat {
+	position: relative;
+	top: -10px;
+	left: 7px;
+	margin-top: 35px;
+	display: inline-block;
+	background-color: #fff;
+	border: 3px solid #e7e6d2;
+	vertical-align: middle;
+	height: 50px;
+	padding: 8px 63px;
+	text-align: center;
+	color: #372113;
+	font-family: "notoserifbold";
+	text-transform: uppercase;
+	font-size: 18px;
+	cursor:pointer;
+}
+
+.button-detali-eat:hover {
+	background-color: #dbd3bb;
+}
+
+.button-detali-eat:active {
+	background-color: #c7c0ae;
+}
+
+
+.zakaz {
+	background-image: url("../img/chepiga-pr.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	background-position: top left;
+	margin-top: 27px;
+	width: 90%;
+	
+}
+.zakaz img {
+	bottom: 30px;
+	right: 27px;
+	position: relative;
+}
+
+.zakaz h1 {
+	font-size: 22px;
+	font-family: "notoserifbold";
+	text-transform: uppercase;
+	float: right;
+	padding: 0;
+	right:25px;
+}
+.zakaz button {
+	display: inline-block;
+	border: 3px solid #372113;
+	background-color: #e7e6d2;
+	vertical-align: middle;
+	height: 50px;
+	padding: 10px 10px;
+	text-align: center;
+	color: #372113;
+	font-family: "notoserifbold";
+	text-transform: uppercase;
+	font-size: 18px;
+	position: absolute;
+	top: 90px;
+	left: 100px;
+	cursor: pointer;
+}
+.otstup {
+	margin-top: 120px;
+}
+
+
+.button-detali-zakaz {
+	position: relative;
+	top: -217px;
+	left: 93px;
+	margin-top: 29px;
+	display: inline-block;
+	border: 3px solid #372113;
+	vertical-align: middle;
+	height: 50px;
+	padding: 10px 21px;
+	text-align: center;
+	color: #372113;
+	font-family: "notoserifbold";
+	text-transform: uppercase;
+	font-size: 18px;
+	cursor:pointer;
+}
+
+.zakaz button:hover {
+	background-color: #dbd3bb;
+}
+
+.zakaz button:active {
+	background-color: #c7c0ae;
+}
+
+.romb-first {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	top: -72px;
+	margin-bottom: -13px;
+}
+
+.romb-first img {
+	color: #372113;
+	font-size: 36px;
+	font-family: "notoserif";
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+
+.romb-first:after {
+	content:"";
+	display: block;
+	height: 1px;
+	background-color: #372113;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+/*Конец первой секции (РЕСТОРАН)*/
+
+/*Начало второй секции (СВАДЬБЫ)*/
+
+.second-section {
+	background-color: #e7e6d2;
+	min-height: 670px;
+	background-position: top center;
+	position: relative;
+}
+.second-section-marg {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.left-romb {
+	float: left;
+	background-image: url(../img/left_romb.png);
+	background-position: top center;
+	position: absolute;
+}
+
+.boxi {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.boxi h1 {
+	color: #372113;
+	font-size: 36px;
+	font-family: "notoserif";
+	display: inline-block;
+	background: #e7e6d2;
+	text-transform: uppercase;
+}
+
+.boxi:after {
+	content:"";
+	display: block;
+	height: 1px;
+	background-color: #372113;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+
+
+.wedding img {
+	max-width: 100%;
+	min-height: 415px;
+}
+
+
+.callback-info-wedding {
+	max-height: 415px;
+	max-width: 270px;
+	background-color: #faf8e3;
+	text-align: center;
+	border: 1px solid #c4b7ae ;
+}
+
+.callback-info-wedding p {
+	font-family: "notoserif";
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+.second_p p {
+	font-size: 14px;
+	font-family: "notoserif";
+	color: #5e4c3d;
+}
+
+.romb {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	top: -70px;
+	
+}
+
+
+
+.romb:after {
+	content:"";
+	display: block;
+	height: 1px;
+	background-color: #372113;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+.romb-second {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	top: 47px;
+	margin-bottom: 20px;
+}
+
+.romb-second img {
+	color: #372113;
+	font-size: 36px;
+	font-family: "notoserif";
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.romb-second:after {
+	content:"";
+	display: block;
+	height: 1px;
+	background-color: #372113;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+.button-detali-wedding {
+	position: absolute;
+	top: 180px;
+	left: 360px;
+	display: inline-block;
+	background-color: #fff;
+	border: 3px solid #e7e6d2;
+	vertical-align: middle;
+	height: 47px;
+	padding: 8px 25px;
+	text-align: center;
+	color: #372113;
+	font-family: "notoserifbold";
+	text-transform: uppercase;
+	font-size: 18px;
+	cursor:pointer;
+}
+
+.button-detali-wedding:hover {
+	background-color: #dbd3bb;
+}
+
+.button-detali-wedding:active {
+	background-color: #c7c0ae;
+}
+/*Конец второй секции (СВАДЬБЫ...*/
+
+/*Начало третьей секции (БАНКЕТЫ КОРПОРАТИВЫ...*/
+
+.third-section {
+	background-image: url(../img/first-section.jpg);
+	min-height: 1206px;
+	background-position: top center;
+	position: relative;
+}
+
+.third-section-marg {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.left-romb {
+	float: left;
+	background-image: url(../img/left_romb.png);
+	background-position: top center;
+	position: absolute;
+}
+
+.box3 {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.box3 h1 {
+	color: #372113;
+	font-size: 36px;
+	font-family: "notoserif";
+	display: inline-block;
+	background-image: url(../img/first-section.jpg);
+	text-transform: uppercase;
+}
+.box3:after {
+	content:"";
+	display: block;
+	height: 1px;
+	background-color: #372113;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+
+
+
+
+
+.action-proposition img {
+	max-width: 100%;
+
+}
+
+
+
+
+.second_p p {
+	font-size: 14px;
+	font-family: "notoserif";
+	color: #5e4c3d;
+}
+
+.romb {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	top: -70px;	
+}
+
+
+
+.romb:after {
+	content:"";
+	display: block;
+	height: 1px;
+	background-color: #372113;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+.box4 {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.box4 h1 {
+	color: #372113;
+	font-size: 35px;
+	font-family: "notoserif";
+	display: inline-block;
+	background-image: url(../img/first-section.jpg);
+	text-transform: uppercase;
+}
+
+.box4 ul li + li:before {
+	content: url("../img/razdelitelsection.png");
+}
+
+.box4 {
+	display: block;
+}
+
+.box4 ul {
+	list-style-type: none;
+	text-transform: uppercase;
+	padding: 0;	
+}
+
+.box4 li {
+	display: inline-block;
+}
+
+.rombik {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	top: 47px;
+}
+
+.rombik img {
+	color: #372113;
+	font-size: 36px;
+	font-family: "notoserif";
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.rombik:after {
+	content:"";
+	display: block;
+	height: 1px;
+	background-color: #372113;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+.main-mnu_button {
+	border: medium none;
+	background-color: transparent;
+	font-size:26px;
+}
+
+.main-mnu_button {
+	color: #c9b56e;
+	
+}
+
+
+
+.slider_container img {
+	max-width: 100%;
+}
+
+.slider_container {
+	position: relative;
+}
+
+.next_button,
+.prev_button {
+	color: #fff;
+	font-weight: bold;
+	font-size: 8px;
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+	top: 58%;
+	background-color: #faf8e3;
+	padding: 5px 13px;
+}
+
+.next_button {
+	right: 15px;
+}
+
+.prev_button {
+	left: 15px;
+}
+
+.next_button_big,
+.prev_button_big {
+	color: #fff;
+	font-weight: bold;
+	font-size: 8px;
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+	top: 44%;
+	background-color: #faf8e3;
+	padding: 18px 24px;
+}
+
+.next_button_big {
+	right: 54px;
+}
+
+.prev_button_big {
+	left: 15px;
+}
+.next_button_biggest,
+.prev_button_biggest {
+	color: #fff;
+	font-weight: bold;
+	font-size: 8px;
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+	top: 29%;
+	background-color: #faf8e3;
+	padding: 18px 24px;
+}
+
+.next_button_biggest {
+	right: 15px;
+}
+
+.prev_button_biggest {
+	left: 15px;
+}
+
+
+
+/*Конец третьей секции(БАНКЕТЫ и КОРПОРАТИВЫ)*/
+
+
+
+/*Начало Четвертой секции (ФОТО ОТЗЫВЫ)*/
+.fourth-section {
+	background-color: #f1f1f1;
+	min-height: 450px;
+	border-bottom: 1px solid #372113;
+	position: relative;
+}
+
+.fourth-section-marg {
+	margin-top: 7px;
+	margin-bottom: 10px;
+}
+
+.box-foto {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.box-foto h1 {
+	color: #372113;
+	font-size: 36px;
+	font-family: "notoserif";
+	display: inline-block;
+	background:  #f1f1f1;
+	text-transform: uppercase;
+}
+
+.box-foto h1 span {
+	font-size: 16px;
+	font-family: "notoserif";
+	text-transform: lowercase;
+}
+
+.box-foto:after {
+	content:"";
+	display: block;
+	height: 1px;
+	background-color: #372113;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+.box-map-restourant {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.box-map-restourant h1 {
+	color: #372113;
+	font-size: 36px;
+	font-family: "notoserif";
+	display: inline-block;
+	background: #ffffff;
+	text-transform: uppercase;
+}
+
+.box-map-restourant:after {
+	content:"";
+	display: block;
+	height: 1px;
+	background-color: #372113;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+/*Конец Четвертой секции (ФОТО ОТЗЫВЫ)*/
+
+/*Начало пятой секции (КАРТА)*/
+
+.fifth-section {
+	background-color: #ffffff;
+	min-height: 1170px;
+	background-position: top center;
+	position: relative;
+}
+.fifth-section-marg {
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.fifth-section-map img {
+	max-width: 100%;
+}
+
+.fifth-section-map {
+	margin-top: 20px;
+	min-height: 310px;
+	background-color: #ccc;
+}
+
+.rhombus-fifth {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	top: 65px;
+}
+
+.rhombus-fifth img {
+	color: #372113;
+	font-size: 36px;
+	font-family: "notoserif";
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.rhombus-fifth:after {
+	content:"";
+	display: block;
+	height: 1px;
+	background-color: #372113;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+.static-map {
+	position: relative;
+	margin-top: 135px;
+	max-width: 100%;
+}
+
+/*Конец пятой секции (КАРТА)*/
+
+.first-information {
+	margin-top: 20px;
+}
+
+
+/*Начало футера*/
+
+footer {
+	background-color: #faf8e3;
+	min-height: 475px;
+	border-top: 1px solid #372113;
+	
+}
+.sled img {
+	position: relative;
+	top: 25px;
+	left: 145px;
+	max-width: 80%;
+
+}
+
+
+
+.author p {
+	font-size: 12px;
+	color: #afac8a;
+	font-family: "notoserif";
+	margin-top: 25px;
+}
+
+.footer-right-asside ul {
+	list-style-type: none;
+	margin:0;
+}
+
+.footer-right-asside {
+	text-align: center;
+}
+
+.footer-right_asside ul li span {
+	font-weight: bold;
+}
+
+.footer-iconset {
+	margin-top: 27px;
+	text-align: right;
+}
+
+.qr {
+	text-align: center;
+}
+
+.footer-iconset li {
+	display: inline;
+	padding-left: 7px;
+}
+.footer-bottom {
+	margin-bottom: 40px;
+}
+.footer-bottom ul {
+	list-style-type: none;
+}
+.footer-left_side {
+	text-align: left;
+	font-size: 14px;
+	font-family: "notoserif";
+}
+.footer-left_side span {
+	text-align: left;
+	font-family: "notoserifbold";
+	text-transform: uppercase;
+	color: #372113;
+	font-size: 18px;
+}
+
+.footer-right-asside span {
+	font-size: 18px;
+	font-family: "notoserifbold";
+	color: #372113;
+}
+
+
+.author-yadro p {
+	font-size: 12px;
+	color: #afac8a;
+	font-family: "notoserif";
+	margin-top: 25px;
+}
+
+.separator {
+	text-align: left;
+}
+
+.footer-menu {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	
+}
+
+.footer-menu p {
+	font-size: 18px;
+	color: #372113;
+	font-family: "notoserif";
+	margin-bottom: 2px;
+}
+.footer-menu ul {
+
+}
+.footer-menu ul li {
+	margin-top: 11px;
+}
+
+.footer-menu li {
+	list-style: none;
+	list-style-image: url("../img/li-separator.png");
+	font-size: 14px;
+	color: #372113;
+	font-family: "notoserif";
+	padding-left: 7px;
+	margin-left: 14px;
+}
+
+.footer-bottom ul {
+	display: inline;
+}
+
+.uslugi ul {
+	margin:0;
+	padding:0;
+}
+.footer-menu a:hover {
+	text-decoration: underline;
+	color: #372113;
+}
+
+/*Конец футера*/
+
+
+button ul {
+	list-style-type: none;
+}
+
+
+
+.toogle_accordion4 button,
+.toogle_accordion5 button {
+	border: medium none;
+	background-color: #fafaf6;
+	color: #372113;
+	cursor:pointer;
+	border: 1px solid #372112;
+	font-size: 18px;
+	font-family: "notoserif";
+}
+
+.toogle_accordion button i {
+	
+	float:right;
+
+}
+.toogle_accordion p {
+	float:left;
+}
+
+.toogle_accordion1 button,
+.toogle_accordion2 button,
+.toogle_accordion3 button{
+	background-color: transparent;
+	color: #372113;
+	border: 1px solid #372112;
+	font-family: "notoserif";
+	font-size: 18px;
+	padding: 5px 10px;
+	cursor:pointer;
+}
+
+.toogle_accordion1 button i {
+	padding-left: 20px;
+}
+.toogle_accordion2 button i {
+	padding-left: 35px;
+}
+.toogle_accordion3 button i {
+	padding-left: 83px;
+}
+
+
+#top button {
+	background-color: #372113;
+	background-image: url(../img/arrow-up.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+
+	background-position: center;
+	position: relative;
+}
+
+
+.authore p {
+	color: #a3a07c;
+	font-size: 12px;
+}
+.author-yadros p {
+	color: #a3a07c;
+	font-size: 12px;
+}
+
+
+
+
+
